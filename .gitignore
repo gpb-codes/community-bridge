@@ -1,0 +1,55 @@
+# ===== Secrets (NUNCA subir) =====
+.env
+.env.*
+!.env.example
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ===== Node / Next.js =====
+node_modules/
+.next/
+out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===== Databases / temp / logs =====
+*.sqlite
+*.sqlite3
+*.db
+*.log
+tmp/
+temp/
+.cache/
+
+# ===== Certificates / keys =====
+*.pem
+*.key
+*.crt
+*.pfx
+*.keystore
+secrets/
+
+# ===== OS / editor =====
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+
+# ===== Docker overrides (local only) =====
+docker-compose.override.yml
