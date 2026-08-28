@@ -31,7 +31,7 @@ class Settings(BaseSettings):
     WHATSAPP_APP_SECRET: Optional[str] = None
     WHATSAPP_VERIFY_TOKEN: Optional[str] = None
     WHATSAPP_API_BASE: str = "https://graph.facebook.com/v21.0"
-    WHATSAPP_IS_OBA: bool = True  # Official Business Account enables Groups API
+    WHATSAPP_IS_OBA: bool = False  # Not an OBA: group creation/discovery falls back to MANUAL/PENDING
 
     # Formatting
     WHATSAPP_PREFIX: str = "🟢 [WhatsApp]"
